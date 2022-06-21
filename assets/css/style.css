@@ -1,0 +1,357 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .bg-lightt {
+        background-color: rgb(40, 119, 199) !important;
+    }
+    
+    .navbar-brand {
+        margin-right: 50px;
+        color: #fff;
+        padding: 10px;
+        font-size: 2rem;
+    }
+    
+    .navbar-menu {
+        text-align: center;
+    }
+    
+    .navbar-menu li a {
+        list-style-type: none;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin: 0px 20px;
+        font-size: 1.2rem;
+    }
+    
+    .navbar-menu li a:hover {
+        text-transform: uppercase;
+       border-bottom: 2px solid rgb(3, 206, 189);
+        color: #fff;
+    }
+    
+    .navbar-menu li a.active {
+        border-bottom: 2px solid rgb(3, 206, 189);
+        list-style-type: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+        color: lightskyblue;
+        text-transform: uppercase;
+        margin: 0px 10px;
+    }
+    /* footer */
+    
+    .indigo {
+        font-size: 18px;
+        color: rgb(243, 243, 243);
+        margin-top: 20px;
+        background-color: rgb(28, 90, 151);
+    }
+    
+    .indigo a {
+        font-size: 14px;
+        color: rgb(213, 216, 214);
+    }
+    /* backtotop */
+    
+    .back-to-top
+    {
+        position: fixed;
+        background: rgb(12, 69, 134);
+        color: rgb(255, 255, 255);
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 28px;
+        border-radius: 50%;
+        right: 30px;
+        bottom: 30px;
+        transition: 0.9s;
+        z-index: 1;
+    }
+    .back-to-top:hover {
+        position: fixed;
+        background: rgb(23, 129, 250);
+        color: rgb(172, 172, 172);
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 28px;
+        border-radius: 50%;
+        right: 30px;
+        bottom: 30px;
+        transition: 0.9s;
+        z-index: 1;
+    }
+    /* home setting */
+    
+    .homesection {
+        padding: 55px 20px;
+        background-color: #fff;
+    }
+    
+    .colhome .home-welcome {
+        margin-top: 10px;
+        /* font-size: 3.3rem; */
+        font-weight: bold;
+    }
+    .colhome .home-welcome > span {
+        color: rgb(3, 206, 189);
+    }
+    
+    .btn-block {
+        background: rgb(3, 206, 189);
+        padding: 10px 25px;
+        color: rgb(238, 236, 236);
+        margin-bottom: 10px;
+    }
+    .btn-block:hover {
+        border: 2px solid rgb(3, 206, 189);
+        background-color: transparent;
+    }
+    
+    .h3 {
+        font-weight: lighter;
+        text-transform: uppercase;
+    }
+    
+    .interest {
+        background-color: rgb(238, 236, 236);
+    }
+    
+    .interest .h3 {
+        margin-top: 40px;
+        text-align: center;
+        border-bottom: 2px solid rgb(238, 236, 236);
+    }
+    
+    .interest p {
+        text-align: center;
+    }
+    
+    /* design send form */
+
+    .modal-header {
+        background-color: rgb(3, 206, 189);
+        text-align: center;
+        
+    }
+    .btn-senddesign {
+        float: right;
+        text-align: center;
+        border: 2px solid rgb(3, 206, 189);
+        color: #333;        
+    }
+    
+    .btn-reqiest {
+        color: seashell;
+        float: right;
+        background-color: rgb(3, 206, 189);
+    }
+    /* service*/
+  
+    #homesection1 h1 {
+        font-size: 3.5rem;
+    }
+    .h-100 {
+        cursor: pointer;
+        background-color: rgb(252, 253, 253);
+        color: rgb(20, 31, 44);
+        padding: 10px;
+        margin: 7px;
+        box-shadow:0 .5rem 1rem rgba(0,0,0,.15)
+    }
+    /* the card of service in second place */
+     #secondlist{
+        background-color: rgb(3, 206, 189);
+        color: #fff;
+    }
+    #secondlist:hover{
+        background-color: #fff;
+        color: rgb(3, 206, 189);
+    }
+    .h-100:hover {
+        cursor: pointer;
+        background-color: rgb(3, 206, 189);
+        color: #fff;
+        padding: 10px;
+        margin: 7px;
+        box-shadow:0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    /* third home page of main page */
+
+    #knowledge {
+        background-color: #fff;
+    }
+
+    #knowldege-cards .col-md-4 {
+        padding: 10px;
+    }
+    .card-title {
+        font-weight: lighter;
+    }
+    /* blog */
+    
+    .blogbody {
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    
+    .bg-blog {
+        background-color: rgb(243, 243, 243);
+    }
+    
+    .btn-blog {
+        background-color: rgb(216, 225, 228);
+    }
+    
+    .pager .card {
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+        background-color: rgb(238, 238, 238);
+    }
+    /* contact html */
+    
+    .contact {
+        background-color: rgb(245, 246, 247);
+        height: auto;
+        padding-bottom:30px ;
+    }
+    
+    .contactme {
+        color: #333;
+        padding-top: 30px;
+        font-size: 3rem;
+    }
+    
+    .article {
+        margin-left: 30px;
+        font-size: 17px;
+    }
+    
+    .article a,
+    span {
+        color: rgb(20, 63, 255);
+    }
+    
+    .article label {
+        text-transform: uppercase;
+
+    }
+    
+    .address {
+        color: rgb(56, 44, 44);
+    }
+    
+    .socialmedia .h4 {
+        padding-top: 30px;
+        color: rgb(43, 42, 42);
+    }
+    
+    .social-media {
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .social-medial-list a {
+        font-size: 28px;
+        padding-right: 10px;
+        color: rgb(12, 69, 134);
+        margin: 0px 15px 0px 0px;
+    }
+    
+    .social-medial-list a:hover {
+        color: rgb(32, 81, 243);
+        margin: 0px 15px 0px 0px;
+    }
+    
+    .btn-send {
+        background-color: rgb(3, 206, 189);
+    }
+    .btn-send:hover {
+        border: 2px solid rgb(3, 206, 189);
+        background-color: transparent;
+    }
+    
+    .btn-reset {
+        background-color: rgb(212, 205, 191);
+        padding: 6px 25px;
+        margin-left: 10px;
+    }
+    /* download html */
+    
+    .downloadpage {
+        background-color: rgb(247, 243, 239);
+        clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+        padding-bottom: 20px;
+    }
+    
+    .download p {
+        border-left: 6px solid lightslategrey;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    
+    .cooming-soon {
+        font-size: 4rem;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .btn-playstore {
+        margin: 20px;
+        cursor: pointer;
+        color: #fff;
+        padding: 10px 25px;
+        background-color: rgb(122, 201, 194);
+    }
+    
+    .spinner-border {
+        justify-content: center;
+    }
+    
+    @media (max-width:270px) {
+        .spinner-border {
+            margin-left: 100px;
+            justify-content: center;
+        }
+    }
+    
+    @media (max-width:3700px) {
+        .spinner-border {
+            margin-left: 120px;
+            justify-content: center;
+        }
+    }
+    
+    @media (min-width:720px) {
+        .spinner-border {
+            margin-left: 300px;
+            justify-content: center;
+        }
+    }
+    /* portifolio */
+    
+    .portifilio {
+        background-color: transparent;
+    }
+    
+    .portfolioh1 {
+        text-align: center;
+        border-bottom: 2px solid rgb(66, 66, 66);
+        padding: 10px;
+    }
+    #anbesa {
+        background-color: #fff;
+    }
